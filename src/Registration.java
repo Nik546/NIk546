@@ -25,6 +25,7 @@ public class Registration extends HttpServlet {
         {
 //            RequestDispatcher requestDispatcher=req.getRequestDispatcher("/Registrate.html");
 //            requestDispatcher.forward(req,resp);
+            System.out.println("hey you wassup?");
 
 
         }
