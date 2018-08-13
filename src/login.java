@@ -32,6 +32,8 @@ public class login extends HttpServlet {
             RequestDispatcher requestDispatcher=req.getRequestDispatcher("/login.html");
             requestDispatcher.include(req,resp);
 
+            System.out.println("Hi how are you");
+
         }
     }
 
