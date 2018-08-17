@@ -27,9 +27,22 @@
                 <url-pattern>/Registra</url-pattern>
             </servlet-mapping>
 
+            <!--<filter>-->
+                <!--<filter-name>welc</filter-name>-->
+                <!--<filter-class>FilterEx</filter-class>-->
+            <!--</filter>-->
+
+    <!--<filter-mapping>-->
+        <!--<filter-name>welc</filter-name>-->
+        <!--<url-pattern>/lo</url-pattern>-->
+    <!--</filter-mapping>-->
+
+
+
+
     <!--<servlet>-->
         <!--<servlet-name>login</servlet-name>-->
-        <!--<servlet-class>login.</servlet-class>-->
+        <!--<servlet-class>login</servlet-class>-->
     <!--</servlet>-->
 
     <!--<servlet-mapping>-->

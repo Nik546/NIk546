@@ -1,23 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .bg-bod {
+            /* The image used */
+            background-image: url("http://wallpaperscraft.site/ui/images/2/WDF_1534298.jpg");
+
+            min-height: 100%;
+            /*min-width:  100%;*/
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } </style>
+
     <title>Title</title>
 </head>
-<h1 color='ff0000'>Register for new users</h1>
-<form action="/Registra" method="get">
-Firstname:<br><input type="text" name="firstname" value="first name" required>
-<br>Last name:<br><input type="text" name="lastname" value="last name" required>
-<br>Mail id: <br><input type="email" name="mailid" value="mailid" required>
-<br>Gender: <br> <input type="radio" name="gender" value="male">Male</input>
-<br><input type="radio" name="gender" value="female">Female</input>
+<body  class="bg-bod" >
+<style>
+    .bg-img {
+        /* The image used */
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/6534567897654-796x417.jpg");
+
+        min-height: 380px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } </style>
+<style>
+    .bg-img1 {
+        /* The image used */
+        background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/registration-page-background-images-10.jpg");
+
+        min-height: 380px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } </style>
+
+
+                <div class="container">
+    <div class="page-header" onclick="/Registrate.html"> <h1>Welcome to the website</h1></div>
+
+    <div class="jumbotron bg-img">
+        <form  style="width:250px"  action="/login" >
 <br>
-UserName: <br><input type="text" name="uname" value="username" required>
-<br>Password:<br><input type="password" name="password" value="password" required>
-<br><input type="submit" value="submit">
-    <!--<button name="reset" value="reset" onclick="/Registrate.html">Reset</button>-->
-</form>
+            <div class="form-group">
+<label for="uname">UserName:</label> <br><input type="text" class="form-control" name="uname" id="uname" placeholder="username" required>
+            </div>
+            <div class="form-group">
+                <br><label for="password">Password:</label><br><input type="password" class="form-control" name="password" id="password" placeholder="password" required>
+            </div>
+        <br><input type="submit" class="btn btn-primary"  value="Login">
+        </form>
+    </div>
 
+<form   class="bg-img1" style=" width: 500px; length:500px" action="/Registra">
+    <h1 color='ff0000'>Register for new users</h1>
 
+<div class="form-group">
+    <label for="firstname"> Firstname:</label><br><input type="text" name="firstname"id="firstname" placeholder="first name" required>
+</div>
+    <div class="form-group">
+        <label for="lastname">Last name:</label><br><input type="text" name="lastname" id="lastname" placeholder="last name" required>
+    </div>
+    <div class="form-group">
+        <label for="mailid">Mail id:</label> <br><input type="email" name="mailid" id="mailid" placeholder="mailid" required>
+    </div>
+    <div class="form-group">
+        <label>Gender:</label> <br>
+        <input type="radio" name="gender" value="male">Male</input>
+        <input type="radio" name="gender" value="female">Female</input>
+    </div>
+    <div class="form-group">
+        <label for="uname1">UserName:</label> <br><input type="text" class="form-group" name="uname"id="uname1" placeholder="username" required>
+    </div>
+    <div class="form-group">
+        <label for="password1">Password:</label><br><input type="password" class="form-group" name="password" id="password1" placeholder="password" required>
+    </div>
+
+    <div class="form-group">
+    <br><input type="submit" class="btn btn-primary btn-block" placeholder="SignUp">
+    <button name="reset"  class="btn btn-danger btn-block" onclick="/Registrate.html" placeholder="reset">Reset</button>
+    </div>
+
+</form></div>
 </body>
 </html>
